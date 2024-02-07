@@ -1,6 +1,6 @@
 package com.ots.testcases;
 
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.ots.base.BaseClass;
 import com.ots.dataProvider.CustomDataProvider;
@@ -18,7 +18,7 @@ public class LoginTest extends BaseClass
 		
 		HomePage home= login.loginToApplication(username, password);
 		
-		AssertJUnit.assertTrue(home.isManageOptionDisplayed());
+		Assert.assertTrue(home.isManageOptionDisplayed());
 		
 	}
 	
