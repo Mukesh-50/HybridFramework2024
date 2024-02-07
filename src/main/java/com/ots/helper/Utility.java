@@ -28,6 +28,13 @@ public class Utility
 {
 	
 	
+	public void sampleMethod()
+	{
+		System.out.println("Sample Method For Demo");
+	}
+	
+	
+	
 	public static WebElement getElement(WebDriver driver,By locator) 
 	{
 		
